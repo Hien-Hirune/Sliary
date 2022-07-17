@@ -67,7 +67,7 @@ def show_menu_board():
         stat_button = tk.Button(canvas_menu, text='   Thống kê', image = stat_image_menu, font=('Inter', 10), bg='#5d8c74', fg='white', activebackground='#B4D6C5', compound="left", command=lambda: print("stat clicked"), relief="flat")
         stat_button.place(x=10, y=60)
 
-        game_button = tk.Button(canvas_menu, text='   Giải trí', image = game_image_menu, font=('Inter', 10), bg='#5d8c74', fg='white', activebackground='#B4D6C5', compound="left", command=game_click, relief="flat")
+        game_button = tk.Button(canvas_menu, text='   Giải trí', image = game_image_menu, font=('Inter', 10), bg='#5d8c74', fg='white', activebackground='#B4D6C5', compound="left", command=lambda: print("game clicked"), relief="flat")
         game_button.place(x=10, y=110)
 
         bin_button = tk.Button(canvas_menu, text='   Thùng rác', image = bin_image_menu, font=('Inter', 10), bg='#5d8c74', fg='white', activebackground='#B4D6C5', compound="left", command=lambda: print("bin clicked"), relief="flat")
